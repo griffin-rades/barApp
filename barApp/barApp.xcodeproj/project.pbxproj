@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,9 @@
 		7448701723871C290018E160 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7448701523871C290018E160 /* LaunchScreen.storyboard */; };
 		7448702223871C290018E160 /* barAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448702123871C290018E160 /* barAppTests.swift */; };
 		7448702D23871C290018E160 /* barAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448702C23871C290018E160 /* barAppUITests.swift */; };
-		7448703B2387200F0018E160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7448703A2387200F0018E160 /* GoogleService-Info.plist */; };
+		7448703F23873AD00018E160 /* BarLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448703E23873AD00018E160 /* BarLoginView.swift */; };
+		7448704123874D2A0018E160 /* EditBarInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448704023874D2A0018E160 /* EditBarInformationView.swift */; };
+		7448704B23874ED50018E160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7448704A23874ED50018E160 /* GoogleService-Info.plist */; };
 		87A19F29A8AC8FF458BE1244 /* Pods_barApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C41E9AC4D96F781B044F71E /* Pods_barApp.framework */; };
 		C95D2442DC67E827A6E2FBD3 /* Pods_barApp_barAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEACDD91F5D52E333BCAAA96 /* Pods_barApp_barAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,7 +60,9 @@
 		7448702823871C290018E160 /* barAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7448702C23871C290018E160 /* barAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barAppUITests.swift; sourceTree = "<group>"; };
 		7448702E23871C290018E160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7448703A2387200F0018E160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7448703E23873AD00018E160 /* BarLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLoginView.swift; sourceTree = "<group>"; };
+		7448704023874D2A0018E160 /* EditBarInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBarInformationView.swift; sourceTree = "<group>"; };
+		7448704A23874ED50018E160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C43B68CA7F224EDA3C53106A /* Pods-barApp-barAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barApp-barAppUITests.release.xcconfig"; path = "Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CE5BDD8AF69D843E2EB4E735 /* Pods-barApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barApp.debug.xcconfig"; path = "Target Support Files/Pods-barApp/Pods-barApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D3316B1653C0F25479D5A43B /* Pods_barAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_barAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,14 +124,12 @@
 		7448700623871C220018E160 /* barApp */ = {
 			isa = PBXGroup;
 			children = (
-				7448700723871C220018E160 /* AppDelegate.swift */,
-				7448700923871C220018E160 /* SceneDelegate.swift */,
-				7448700B23871C220018E160 /* ViewController.swift */,
-				7448700D23871C220018E160 /* Main.storyboard */,
+				7448704323874DE20018E160 /* Delegates */,
+				7448704723874E0D0018E160 /* storyboards */,
+				7448704223874DBD0018E160 /* views */,
 				7448701323871C290018E160 /* Assets.xcassets */,
-				7448701523871C290018E160 /* LaunchScreen.storyboard */,
 				7448701823871C290018E160 /* Info.plist */,
-				7448703A2387200F0018E160 /* GoogleService-Info.plist */,
+				7448704A23874ED50018E160 /* GoogleService-Info.plist */,
 				7448701023871C220018E160 /* barApp.xcdatamodeld */,
 			);
 			path = barApp;
@@ -151,6 +153,34 @@
 			path = barAppUITests;
 			sourceTree = "<group>";
 		};
+		7448704223874DBD0018E160 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				7448700B23871C220018E160 /* ViewController.swift */,
+				7448703E23873AD00018E160 /* BarLoginView.swift */,
+				7448704023874D2A0018E160 /* EditBarInformationView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		7448704323874DE20018E160 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7448700723871C220018E160 /* AppDelegate.swift */,
+				7448700923871C220018E160 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7448704723874E0D0018E160 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7448701523871C290018E160 /* LaunchScreen.storyboard */,
+				7448700D23871C220018E160 /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
 		9951C53B7C36ACC5B8D4E63A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +201,6 @@
 				3C8261960CE70969FD66E985 /* Pods-barAppTests.debug.xcconfig */,
 				EA5CADE88E0DBF81DA6B4520 /* Pods-barAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -187,6 +216,7 @@
 				7448700123871C220018E160 /* Frameworks */,
 				7448700223871C220018E160 /* Resources */,
 				86C6F5A982AB4FE8CEFA9541 /* [CP] Embed Pods Frameworks */,
+				104EDB7FE7EFE0366C6C523C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,6 +255,7 @@
 				7448702523871C290018E160 /* Frameworks */,
 				7448702623871C290018E160 /* Resources */,
 				A890D55D87B1E0EE5C8F256B /* [CP] Embed Pods Frameworks */,
+				A25B543CA0648BD5D0587214 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -285,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7448701723871C290018E160 /* LaunchScreen.storyboard in Resources */,
-				7448703B2387200F0018E160 /* GoogleService-Info.plist in Resources */,
+				7448704B23874ED50018E160 /* GoogleService-Info.plist in Resources */,
 				7448701423871C290018E160 /* Assets.xcassets in Resources */,
 				7448700F23871C220018E160 /* Main.storyboard in Resources */,
 			);
@@ -308,6 +339,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		104EDB7FE7EFE0366C6C523C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-barApp/Pods-barApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-barApp/Pods-barApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-barApp/Pods-barApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		32E55BB6F2B042995C6BDFF8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,6 +417,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-barApp/Pods-barApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A25B543CA0648BD5D0587214 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A890D55D87B1E0EE5C8F256B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -416,9 +481,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7448700C23871C220018E160 /* ViewController.swift in Sources */,
+				7448704123874D2A0018E160 /* EditBarInformationView.swift in Sources */,
 				7448701223871C220018E160 /* barApp.xcdatamodeld in Sources */,
 				7448700823871C220018E160 /* AppDelegate.swift in Sources */,
 				7448700A23871C220018E160 /* SceneDelegate.swift in Sources */,
+				7448703F23873AD00018E160 /* BarLoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +669,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rades.griffin.barApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -621,7 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rades.griffin.barApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

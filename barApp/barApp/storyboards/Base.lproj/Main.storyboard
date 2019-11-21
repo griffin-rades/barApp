@@ -10,7 +10,6 @@
         <!--Winona Bars-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="barApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -43,13 +42,14 @@
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="105.80357142857143"/>
         </scene>
         <!--Bar Login-->
         <scene sceneID="q9I-uO-9sN">
             <objects>
-                <viewController id="TDJ-OY-PCN" sceneMemberID="viewController">
+                <viewController id="TDJ-OY-PCN" customClass="BarLoginView" customModule="barApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Fe-Q9-XD2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,10 +57,29 @@
                         <viewLayoutGuide key="safeArea" id="1lo-LT-ga1"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bar Login" id="bEH-dG-Ngf"/>
+                    <connections>
+                        <segue destination="tgu-TP-Kwh" kind="show" identifier="goToBarPage" id="eqG-Lr-7VZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8h2-SO-cX3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1856" y="105"/>
+            <point key="canvasLocation" x="1855.072463768116" y="104.46428571428571"/>
+        </scene>
+        <!--Edit Information-->
+        <scene sceneID="giP-dZ-UXp">
+            <objects>
+                <viewController id="tgu-TP-Kwh" customClass="EditBarInformationView" customModule="barApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Svg-Pe-4LH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bjF-a1-1ng"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Information" id="iKg-7e-gW2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqE-4Q-I3P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2624.6376811594205" y="105.80357142857143"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l2p-er-IAs">
