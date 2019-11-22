@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>400088630864-49tpsk8mkhr9sm9ei3afcjsr11umqacq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.400088630864-49tpsk8mkhr9sm9ei3afcjsr11umqacq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBgC84ptyFOnTI9Dl8i68JTfo2VIIaBtrM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>400088630864</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>rades.griffin.barApp</string>
+	<key>PROJECT_ID</key>
+	<string>barapp-eb728</string>
+	<key>STORAGE_BUCKET</key>
+	<string>barapp-eb728.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:400088630864:ios:a6c83efaee5ed2424e3355</string>
+	<key>DATABASE_URL</key>
+	<string>https://barapp-eb728.firebaseio.com</string>
+</dict>
+</plist>

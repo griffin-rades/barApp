@@ -19,7 +19,8 @@
 		7448702D23871C290018E160 /* barAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448702C23871C290018E160 /* barAppUITests.swift */; };
 		7448703F23873AD00018E160 /* BarLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448703E23873AD00018E160 /* BarLoginView.swift */; };
 		7448704123874D2A0018E160 /* EditBarInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448704023874D2A0018E160 /* EditBarInformationView.swift */; };
-		7448704B23874ED50018E160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7448704A23874ED50018E160 /* GoogleService-Info.plist */; };
+		74C1EA16238895530038F66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C1EA15238895530038F66F /* GoogleService-Info.plist */; };
+		74C1EA18238896D70038F66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C1EA17238896D70038F66F /* GoogleService-Info.plist */; };
 		87A19F29A8AC8FF458BE1244 /* Pods_barApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C41E9AC4D96F781B044F71E /* Pods_barApp.framework */; };
 		C95D2442DC67E827A6E2FBD3 /* Pods_barApp_barAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEACDD91F5D52E333BCAAA96 /* Pods_barApp_barAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,7 +63,8 @@
 		7448702E23871C290018E160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7448703E23873AD00018E160 /* BarLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLoginView.swift; sourceTree = "<group>"; };
 		7448704023874D2A0018E160 /* EditBarInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBarInformationView.swift; sourceTree = "<group>"; };
-		7448704A23874ED50018E160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74C1EA15238895530038F66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74C1EA17238896D70038F66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C43B68CA7F224EDA3C53106A /* Pods-barApp-barAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barApp-barAppUITests.release.xcconfig"; path = "Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CE5BDD8AF69D843E2EB4E735 /* Pods-barApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barApp.debug.xcconfig"; path = "Target Support Files/Pods-barApp/Pods-barApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D3316B1653C0F25479D5A43B /* Pods_barAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_barAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,7 +131,7 @@
 				7448704223874DBD0018E160 /* views */,
 				7448701323871C290018E160 /* Assets.xcassets */,
 				7448701823871C290018E160 /* Info.plist */,
-				7448704A23874ED50018E160 /* GoogleService-Info.plist */,
+				74C1EA17238896D70038F66F /* GoogleService-Info.plist */,
 				7448701023871C220018E160 /* barApp.xcdatamodeld */,
 			);
 			path = barApp;
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				7448702C23871C290018E160 /* barAppUITests.swift */,
+				74C1EA15238895530038F66F /* GoogleService-Info.plist */,
 				7448702E23871C290018E160 /* Info.plist */,
 			);
 			path = barAppUITests;
@@ -316,7 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7448701723871C290018E160 /* LaunchScreen.storyboard in Resources */,
-				7448704B23874ED50018E160 /* GoogleService-Info.plist in Resources */,
+				74C1EA18238896D70038F66F /* GoogleService-Info.plist in Resources */,
 				7448701423871C290018E160 /* Assets.xcassets in Resources */,
 				7448700F23871C220018E160 /* Main.storyboard in Resources */,
 			);
@@ -333,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C1EA16238895530038F66F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
