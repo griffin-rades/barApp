@@ -53,12 +53,12 @@ class BarLoginView: UIViewController{
         self.informationLabel.textColor = .black
         self.informationLabel.numberOfLines = 0
         self.informationLabel.textAlignment = .center
-        self.informationLabel.text = "Bars are the only ones with logins. If you are a bar press login to edit the data on you bar posting."
+        self.informationLabel.text = "Login to view Winona Bars. If you are a bar it will take you the edit page for your bar."
         self.informationLabel.font = UIFont.systemFont(ofSize: 15)
         
         let constraint0 = NSLayoutConstraint.constraints(withVisualFormat: "H:|-[label]-|", options: NSLayoutConstraint.FormatOptions(rawValue: 0), metrics: nil, views: self.itemDictionary)
         let constraint1 = NSLayoutConstraint.constraints(withVisualFormat: "H:|-[button]-|", options: NSLayoutConstraint.FormatOptions(rawValue: 0), metrics: nil, views: self.itemDictionary)
-        let constraint2 = NSLayoutConstraint.constraints(withVisualFormat: "V:|-400-[label]-[button]", options: NSLayoutConstraint.FormatOptions(rawValue: 0), metrics: nil, views: self.itemDictionary)
+        let constraint2 = NSLayoutConstraint.constraints(withVisualFormat: "V:|-400-[label]-20-[button]", options: NSLayoutConstraint.FormatOptions(rawValue: 0), metrics: nil, views: self.itemDictionary)
 
         self.view.addConstraints(constraint0)
         self.view.addConstraints(constraint1)

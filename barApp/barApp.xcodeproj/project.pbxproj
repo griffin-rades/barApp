@@ -10,7 +10,7 @@
 		71C038BD7F46316F5407CB38 /* Pods_barAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3316B1653C0F25479D5A43B /* Pods_barAppTests.framework */; };
 		7448700823871C220018E160 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448700723871C220018E160 /* AppDelegate.swift */; };
 		7448700A23871C220018E160 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448700923871C220018E160 /* SceneDelegate.swift */; };
-		7448700C23871C220018E160 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448700B23871C220018E160 /* ViewController.swift */; };
+		7448700C23871C220018E160 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448700B23871C220018E160 /* BarViewController.swift */; };
 		7448700F23871C220018E160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7448700D23871C220018E160 /* Main.storyboard */; };
 		7448701223871C220018E160 /* barApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7448701023871C220018E160 /* barApp.xcdatamodeld */; };
 		7448701423871C290018E160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7448701323871C290018E160 /* Assets.xcassets */; };
@@ -19,6 +19,8 @@
 		7448702D23871C290018E160 /* barAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448702C23871C290018E160 /* barAppUITests.swift */; };
 		7448703F23873AD00018E160 /* BarLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448703E23873AD00018E160 /* BarLoginView.swift */; };
 		7448704123874D2A0018E160 /* EditBarInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448704023874D2A0018E160 /* EditBarInformationView.swift */; };
+		74979EB32390C0EC009B62A9 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74979EB22390C0EC009B62A9 /* BarTableViewCell.swift */; };
+		74979EB52390C2D6009B62A9 /* BarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74979EB42390C2D6009B62A9 /* BarTableViewController.swift */; };
 		74C1EA16238895530038F66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C1EA15238895530038F66F /* GoogleService-Info.plist */; };
 		74C1EA18238896D70038F66F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74C1EA17238896D70038F66F /* GoogleService-Info.plist */; };
 		87A19F29A8AC8FF458BE1244 /* Pods_barApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C41E9AC4D96F781B044F71E /* Pods_barApp.framework */; };
@@ -49,7 +51,7 @@
 		7448700423871C220018E160 /* barApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7448700723871C220018E160 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7448700923871C220018E160 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7448700B23871C220018E160 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7448700B23871C220018E160 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 		7448700E23871C220018E160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7448701123871C220018E160 /* barApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = barApp.xcdatamodel; sourceTree = "<group>"; };
 		7448701323871C290018E160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +65,8 @@
 		7448702E23871C290018E160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7448703E23873AD00018E160 /* BarLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLoginView.swift; sourceTree = "<group>"; };
 		7448704023874D2A0018E160 /* EditBarInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBarInformationView.swift; sourceTree = "<group>"; };
+		74979EB22390C0EC009B62A9 /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BarTableViewCell.swift; path = barApp/views/BarTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		74979EB42390C2D6009B62A9 /* BarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BarTableViewController.swift; path = barApp/views/BarTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		74C1EA15238895530038F66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		74C1EA17238896D70038F66F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C43B68CA7F224EDA3C53106A /* Pods-barApp-barAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barApp-barAppUITests.release.xcconfig"; path = "Target Support Files/Pods-barApp-barAppUITests/Pods-barApp-barAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -159,7 +163,9 @@
 		7448704223874DBD0018E160 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				7448700B23871C220018E160 /* ViewController.swift */,
+				7448700B23871C220018E160 /* BarViewController.swift */,
+				74979EB42390C2D6009B62A9 /* BarTableViewController.swift */,
+				74979EB22390C0EC009B62A9 /* BarTableViewCell.swift */,
 				7448703E23873AD00018E160 /* BarLoginView.swift */,
 				7448704023874D2A0018E160 /* EditBarInformationView.swift */,
 			);
@@ -484,10 +490,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7448700C23871C220018E160 /* ViewController.swift in Sources */,
+				7448700C23871C220018E160 /* BarViewController.swift in Sources */,
 				7448704123874D2A0018E160 /* EditBarInformationView.swift in Sources */,
 				7448701223871C220018E160 /* barApp.xcdatamodeld in Sources */,
+				74979EB52390C2D6009B62A9 /* BarTableViewController.swift in Sources */,
 				7448700823871C220018E160 /* AppDelegate.swift in Sources */,
+				74979EB32390C0EC009B62A9 /* BarTableViewCell.swift in Sources */,
 				7448700A23871C220018E160 /* SceneDelegate.swift in Sources */,
 				7448703F23873AD00018E160 /* BarLoginView.swift in Sources */,
 			);
