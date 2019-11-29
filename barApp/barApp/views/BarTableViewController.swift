@@ -50,8 +50,9 @@ class BarTableViewController: UITableViewController {
     private func loadBars(){
         ref.child("barNames").observe(DataEventType.value, with: { (snapshot) in
           let postDict = snapshot.value as? [String : String] ?? [:]
-          
-            for (key,value) in postDict{
+            self.bars.removeAll()
+            
+            for (_,value) in postDict{
                 self.bars.append(value)
             }
             self.tableView.reloadData()
