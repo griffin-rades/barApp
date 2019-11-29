@@ -15,6 +15,8 @@ class BarLoginView: UIViewController{
     var informationLabel = UILabel()
     var loginButton = UIButton()
     var itemDictionary = [String: Any]()
+    var authorizedUsers = ["Xcdzly67fLYd20clCn9GSwNLKuG3","bMixaaN0W8N31kfnn3nUMrTP7Ao1"]
+    var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,7 @@ class BarLoginView: UIViewController{
         self.loginButton.setTitle("Login", for: .normal)
         self.loginButton.backgroundColor = .black
         self.loginButton.setTitleColor(.white, for: .normal)
+        ref = Database.database().reference()
         
         addObjects()
     }
@@ -73,7 +76,12 @@ extension BarLoginView: FUIAuthDelegate{
         if error != nil{
             return
         }
+        let user = Auth.auth().currentUser
         
-        performSegue(withIdentifier: "goToBarPage", sender: self)
+        if self.authorizedUsers.contains(user!.uid){
+            self.performSegue(withIdentifier: "goToEdit", sender: self)
+        }else{
+            self.performSegue(withIdentifier: "goToBarPage", sender: self)
+        }
     }
 }
